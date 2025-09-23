@@ -3,6 +3,8 @@ package newspapercrud.ui;
 import jakarta.enterprise.inject.se.SeContainer;
 import jakarta.enterprise.inject.se.SeContainerInitializer;
 import newspapercrud.domain.model.CredentialsDTO;
+import newspapercrud.domain.model.TypeDTO;
+
 import java.util.Scanner;
 
 public class MainMenu {
@@ -48,6 +50,10 @@ public class MainMenu {
 
                     break;
                 case 2:
+
+                    int answer = articleUi.addArticle();
+
+
                     break;
                 case 3:
                     break;
